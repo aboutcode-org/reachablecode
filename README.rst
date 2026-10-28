@@ -1,8 +1,8 @@
 =================
-reachablecode
+ReachableCode
 =================
 
-reachablecode is a collection of pipelines for analyzing code reachability.
+ReachableCode is a collection of pipelines for analyzing code reachability.
 It integrates with ScanCode.io as a pipeline plugin
 and uses tools like (Atom, CPG, .. ) to determine whether
 vulnerable code symbols are reachable within a project's codebase.
@@ -36,7 +36,7 @@ To install:
 
 - Run ``pip install --editable ../reachablecode``
 - Run ScanCode.io with ``./manage.py runserver --insecure`` and open the URL in your browser.
-  There is a new "android_d2d" pipeline available when creating a new project.
+  There is a new "analyze_atom_reachability" pipeline available when creating a new project.
 
 Development
 ----------------
