@@ -6,6 +6,7 @@ Welcome to ReachableCode's documentation!
    :caption: Contents:
 
    tutorial_atom_reachability_integration_tools
+   tutorial_cpg_reachability_integration_tools
    contribute/contrib_doc
 
 Indices and tables
