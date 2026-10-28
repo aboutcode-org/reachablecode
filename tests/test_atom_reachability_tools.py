@@ -23,8 +23,7 @@
 import json
 import shutil
 from pathlib import Path
-
-from django.test import TestCase
+from unittest import TestCase
 
 from scanpipe.models import Project
 from scanpipe.pipes import collect_and_create_codebase_resources
