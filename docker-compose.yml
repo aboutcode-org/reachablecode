@@ -33,7 +33,7 @@ services:
 
   web:
     build:
-      context: .
+      context: ../scancode.io
     command: sh -c "
         ./manage.py migrate &&
         ./manage.py collectstatic --no-input --verbosity 0 --clear &&
@@ -59,7 +59,7 @@ services:
 
   worker:
     build:
-      context: .
+      context: ../scancode.io
     # Ensure that potential db migrations run first by waiting until "web" is up
     command: wait-for-it --strict --timeout=600 web:8000 -- sh -c "
         ./manage.py rqworker --worker-class scancodeio.worker.ScanCodeIOWorker
