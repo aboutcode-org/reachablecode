@@ -113,7 +113,7 @@ services:
 
   atom:
     profiles:
-     - atom
+      - atom
     build:
       context: .
       dockerfile: atom.Dockerfile

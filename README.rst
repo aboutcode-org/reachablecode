@@ -3,7 +3,8 @@ reachablecode
 =================
 
 reachablecode is a collection of pipelines for analyzing code reachability.
-It integrates with ScanCode.io as a pipeline plugin and uses tools like (Atom, CPG, .. ) to determine whether
+It integrates with ScanCode.io as a pipeline plugin
+and uses tools like (Atom, CPG, .. ) to determine whether
 vulnerable code symbols are reachable within a project's codebase.
 
 Other information:
