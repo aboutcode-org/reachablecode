@@ -20,8 +20,10 @@
 # ScanCode.io is a free software code scanning tool from nexB Inc. and others.
 # Visit https://github.com/aboutcode-org/scancode.io for support and download.
 
-from scanpipe.pipes import cpg
+
 from scanpipe.pipes.reachability_tools import ReachabilityPipeline
+
+from reachablecode.pipes import cpg
 from reachablecode.pipes.cpg import CPGTool
 from os import environ
 
