@@ -5,7 +5,7 @@ Welcome to nexb-skeleton's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   skeleton-usage
+   tutorial_atom_reachability_integration_tools
    contribute/contrib_doc
 
 Indices and tables
