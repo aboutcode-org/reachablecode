@@ -12,7 +12,7 @@ Other information:
 - License: Apache-2.0
 - Copyright (c) nexB Inc., AboutCode.org and others.
 - Homepage: https://github.com/aboutcode-org/reachablecode/
-
++ Documentation: https://reachablecode.readthedocs.io/
 
 Requirements
 ------------
