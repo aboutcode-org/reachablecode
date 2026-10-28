@@ -1,4 +1,4 @@
-Welcome to nexb-skeleton's documentation!
+Welcome to ReachableCode's documentation!
 =========================================
 
 .. toctree::
